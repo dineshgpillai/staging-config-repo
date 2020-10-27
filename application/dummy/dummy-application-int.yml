@@ -1,2 +1,3 @@
 application:
   value1: 'This is good INT DUMMY'
+  value2: 'This does not exist above'
