@@ -1,6 +1,2 @@
-spring:
-  application: telemetry
-
-
 application:
   value1: 'This is good INT telemetry'
