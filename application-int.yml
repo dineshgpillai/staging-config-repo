@@ -1,2 +1,8 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+
 application:
   value1: 'This is good INT'
