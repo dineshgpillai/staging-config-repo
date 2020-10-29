@@ -1,18 +1,10 @@
 server:
   port: 8098
-
-
-
-
 management:
      security:
         enabled: false
-
 application:
   value1: 'This is good INT telemetry'
 
-spring:
-  cloud:
-    consul:
-      enabled: true
+
 
