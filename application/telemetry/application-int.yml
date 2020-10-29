@@ -1,8 +1,8 @@
 application:
   value1: 'This is good INT telemetry'
 
-#spring:
-#  cloud:
-#    consul:
-#      enabled: false
+spring:
+  cloud:
+    consul:
+      enabled: true
 
