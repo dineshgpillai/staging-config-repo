@@ -1,3 +1,5 @@
+server:
+  port: 8098
 application:
   value1: 'This is good INT telemetry'
 
