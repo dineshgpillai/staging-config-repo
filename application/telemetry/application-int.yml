@@ -3,6 +3,11 @@ server:
 management:
      security:
         enabled: false
+
+spring:
+  cloud:
+    consul:
+      enabled: true
 application:
   value1: 'This is good INT telemetry'
 
