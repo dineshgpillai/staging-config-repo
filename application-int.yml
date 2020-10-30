@@ -7,5 +7,9 @@ spring:
         instanceId: ${spring.application.name}:${random.value}
 
 
+management:
+  server:
+    port: 4452
+
 application:
   value1: 'This is good INT'
