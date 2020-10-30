@@ -2,7 +2,7 @@ server:
   port: 8098
 management:
      security:
-        enabled: true
+        enabled: false
 application:
   value1: 'This is good INT telemetry'
 
