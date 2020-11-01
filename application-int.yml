@@ -10,7 +10,8 @@ spring:
         metadata:
             myfield: myvalue
             anotherfield: anothervalue
-        instanceId: ${spring.application.name}:${random.value}
+#        instanceId: ${spring.application.name}:${random.value}
+        instanceId: ${spring.application.name}
 
 
 
