@@ -8,6 +8,10 @@ spring:
   cloud:
     consul:
       enabled: true
+      discovery:
+        metadata:
+          myfield: myvalue
+          anotherfield: anothervalue
 application:
   value1: 'This is good INT telemetry'
 
