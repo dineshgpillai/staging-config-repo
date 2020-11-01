@@ -5,8 +5,8 @@ spring:
       port: 8500
       enabled: false
       discovery:
-        health-check-headers:
-          X-Config-Token: 6442e58b-d1ea-182e-cfa5-cf9cddef0722
+#        health-check-headers:
+#          X-Config-Token: 6442e58b-d1ea-182e-cfa5-cf9cddef0722
         metadata:
             myfield: myvalue
             anotherfield: anothervalue
