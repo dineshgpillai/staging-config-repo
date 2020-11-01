@@ -5,6 +5,9 @@ spring:
       port: 8500
       enabled: false
       discovery:
+        metadata:
+            myfield: myvalue
+            anotherfield: anothervalue
         instanceId: ${spring.application.name}:${random.value}
 
 
